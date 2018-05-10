@@ -32,10 +32,10 @@ deploy:
   on:
     branch: vuepress
 
-  branches:
-    only:
-      - vuepress
+branches:
+  only:
+    - vuepress
 
-  notifications:
-    email:
-      on_failure: always
+notifications:
+  email:
+    on_failure: always
