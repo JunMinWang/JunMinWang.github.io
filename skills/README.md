@@ -10,7 +10,7 @@ skills:
       HTML: 3
       JavaScript: 2
       jQuery: 3
-      Vue.js: 2
+      Vue.js: 1
   - title: 後端
     icon: desktop
     items:
