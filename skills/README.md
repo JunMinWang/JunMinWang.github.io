@@ -28,16 +28,13 @@ skills:
     items:
       Docker: 1
       TravisCI: 1
-      Selenium IDE: 2
-      
+      Selenium IDE: 2      
   - title: 系統
     icon: server
     items:
       Ubuntu: 2
       Apache: 3
       GoAccess: 2
-
-
   - title: 學習清單
     icon: server
     items:
