@@ -46,9 +46,11 @@ skills:
   <div class="col-md-6 p-md-2">
     <SkillCard :skill="$page.frontmatter.skills[0]"/>
     <SkillCard :skill="$page.frontmatter.skills[2]"/>
+    <SkillCard :skill="$page.frontmatter.skills[4]"/>
   </div>
   <div class="col-md-6 p-md-2">
     <SkillCard :skill="$page.frontmatter.skills[1]"/>
     <SkillCard :skill="$page.frontmatter.skills[3]"/>
+    <SkillCard :skill="$page.frontmatter.skills[5]"/>
   </div>
 </div>
