@@ -23,14 +23,25 @@ skills:
       SQLite: 2
       MongoDB: 1
       Redis: 1
-  - title: 其他
+  - title: DevOps
     icon: server
     items:
-      Apache: 3
       Docker: 1
-      Ubuntu: 2
+      TravisCI: 1
       Selenium IDE: 2
+      
+  - title: 系統
+    icon: server
+    items:
+      Ubuntu: 2
+      Apache: 3
       GoAccess: 2
+
+
+  - title: 學習清單
+    icon: server
+    items:
+      測試: 1
 ---
 # <span class="fa fa-bar-chart-o fa-fw"></span> 技能
 
