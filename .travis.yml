@@ -1,0 +1,41 @@
+# 專案語言
+language: node_js
+
+# 要被測試的版本
+node_js:
+  - 8
+
+cache:
+  directories:
+    - "node_modules"
+
+env:
+  - WEB_INDEX=.vuepress/dist/index.html
+
+install:
+  - yarn
+  - yarn upgrade
+
+# 測試的命令
+script:
+  - yarn build
+  - test -f $WEB_INDEX -a -s $WEB_INDEX
+
+deploy:
+  email: a2263266@gmail.com
+  github-token: $GITHUB_TOKEN
+  local-dir: .vuepress/dist #當作網站根目錄
+  name: Jun-Min Wang
+  provider: pages
+  skip-cleanup: true
+  target-branch: master
+  on:
+    branch: vuepress
+
+branches:
+  only:
+    - vuepress
+
+notifications:
+  email:
+    on_failure: always

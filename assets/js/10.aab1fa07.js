@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{65:function(n,t,e){},69:function(n,t,e){"use strict";var a=e(65);e.n(a).a},76:function(n,t,e){"use strict";e.r(t);e(69);var a=e(0),s=Object(a.a)({},function(){var n=this.$createElement,t=this._self._c||n;return t("div",{staticClass:"container layout-page"},[t("Content")],1)},[],!1,null,null,null);t.default=s.exports}}]);
