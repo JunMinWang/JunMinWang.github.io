@@ -28,7 +28,9 @@ skills:
     items:
       Docker: 1
       TravisCI: 1
-      Selenium IDE: 2      
+      Selenium IDE: 2
+      Git: 2
+      PHPUnit: 1
   - title: 系統
     icon: server
     items:
